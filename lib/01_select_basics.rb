@@ -93,6 +93,6 @@ def just_the_right_size
   FROM 
     countries
   WHERE
-    ( countries.area BETWEEN 200000 AND 250000);
+    ( countries.area BETWEEN 200000 AND 2500000);
   SQL
 end
