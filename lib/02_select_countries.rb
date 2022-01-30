@@ -54,7 +54,7 @@ def population_in_millions
   execute(<<-SQL)
   SELECT name,(population/1000000) AS population_millions
   FROM countries
-  WHERE ( continent LIKE 'South America');
+  WHERE ( continent LIKE 'South ');
   SQL
 end
 
